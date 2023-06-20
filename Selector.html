@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element selector</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .t1s{
+            color: rgb(89, 0, 255);
+            font-size: large;
+        }
+        .t2s{
+            color: rgb(255, 0, 217);
+            font-size: large;
+        }
+        table,th,td,tr{
+            text-align: center;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        input{
+            display: inline;
+            width: 10em;
+            height: 5ex;
+            background-color: gold;
+            border: 2px solid firebrick;
+            border-radius: 10px;
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+            transition:  border-radius 0.2s, background-color 1s, color 0.3s;
+            /* transition:  , 0.5s; */
+        }
+        input:hover{
+            color:blue;
+            background-color: bisque;
+            border-radius: 4px;
+        }
+
+        a{
+            float: left;
+           
+        }
+        a:hover{
+            color: aqua;
+            font-size: x-large;
+        }
+        .box{
+            text-shadow: 1px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 3px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            align-items: center;
+            height: 30px;
+            width: 60px;
+            background-color: rgb(125, 211, 182);
+            margin: 10px;
+            transition:  height 0.2s, width 0.5s, background-color 1s, color 0.3s;
+        }
+        .box:hover{
+            height: 40px;
+            width: 130px;
+            border-radius: 4px;
+            background-color: aqua;
+
+        }
+        .box1{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is about day</h1>
+    <p>this is rainny day because for resion viprade chakrwat and fater go to village, tommarow's day amavsya  </p>
+    <div>
+        <table class="t1s">
+            <thead>
+                <th>name of student</th>
+                <th>roll no of start with R</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ram</td>
+                    <td>3</td>
+            </tr>
+                <tr>
+                    <td>ramu</td>
+                    <td>31</td>
+            </tr>
+                
+            </tbody>
+        </table>
+    </div><br>
+    <div>
+        <table class="t2s">
+            <thead>
+                <th>name</th>
+                <th>roll</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ram</td>
+                    <td>3</td>
+            </tr>
+                <tr>
+                    <td>ramu</td>
+                    <td>31</td>
+            </tr>
+                
+            </tbody>
+        </table>
+    </div><br>
+    <div>
+        <table class="3st">
+            <thead>
+                <th>name</th>
+                <th>roll</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ram</td>
+                    <td>3</td>
+            </tr>
+                <tr>
+                    <td>ramu</td>
+                    <td>31</td>
+            </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <a href="https://www.youtube.com">youtube</a> <br>
+    <input type="button" value="submit">
+    <div class="box1">
+        <p class="box">
+            Home
+        </p>
+    </div>
+    <div>
+        <p class="box">
+            Class
+        </p>
+    </div>
+</body>
+</html>
